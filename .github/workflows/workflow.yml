@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Build the Docker image
-      run: docker compose -f docker-compose.yml up -d
+      run: docker compose -f docker-compose.yml up --build -d
       
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
