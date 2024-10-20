@@ -8,9 +8,9 @@ RUN yarn install --ignore-scripts
 COPY src/ ./src/
 COPY public/ ./public/
 
-RUN yarn build
-
 RUN mkdir -p node_modules/.cache && chmod -R 754 node_modules/.cache
+
+RUN yarn build
 
 USER node
 EXPOSE 3000
