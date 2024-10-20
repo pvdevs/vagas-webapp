@@ -30,7 +30,7 @@ const NavRoutes: React.FC = () => {
     // ReactGA.pageview(window.location.pathname + window.location.search);
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='/vagas-webapp'>
             <Routes>
                 <Route element={<DefaultLayout />}>
                     <Route index element={<Home />} />
