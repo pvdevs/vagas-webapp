@@ -14,6 +14,10 @@ jobs:
     - name: Build the Docker image
       run: docker compose -f docker-compose.yml up --build -d
       
+    - name: List files in container
+      run: |
+        docker exec $(docker-compose ps -q app) ls /app
+      
     - name: Copy build from container
       run: |
         docker cp $(docker compose ps -q app):/app/build ./build
