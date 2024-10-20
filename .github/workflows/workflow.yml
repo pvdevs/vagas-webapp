@@ -16,7 +16,7 @@ jobs:
       
     - name: List files in container
       run: |
-        docker exec $(docker-compose ps -q app) ls /app
+        docker exec $(docker compose ps -q app) ls /app
       
     - name: Copy build from container
       run: |
