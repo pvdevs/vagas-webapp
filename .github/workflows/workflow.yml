@@ -1,10 +1,6 @@
 name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - main  # Produção
-      - develop # Homologação
+on: pull_request
 
 jobs:
   build:
