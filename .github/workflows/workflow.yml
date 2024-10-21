@@ -6,17 +6,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
     - name: Build the Docker image
       run: docker compose -f docker-compose.yml up --build -d
-      
-    - name: List files in container
-      run: |
-        docker exec $(docker compose ps -q app) ls /app
       
     - name: Copy build from container
       run: |
