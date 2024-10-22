@@ -13,7 +13,7 @@ jobs:
 
     - name: Build the Docker image
       run: docker compose -f docker-compose.yml up --build -d
-      
+
     - name: Copy build from container
       run: |
         docker cp $(docker compose ps -q app):/app/build ./build
