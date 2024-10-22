@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vagas-webapp/static/css/main.a7f1c16a.css",
-    "main.js": "/vagas-webapp/static/js/main.bdd0c5ca.js",
+    "main.js": "/vagas-webapp/static/js/main.91383d24.js",
     "static/media/testimonial-joão-kremer.svg": "/vagas-webapp/static/media/testimonial-joão-kremer.c5f2d126f9b8ae2bfe58dfb40f187d67.svg",
     "static/media/VocationalBanner.svg": "/vagas-webapp/static/media/VocationalBanner.2afa67934a9b53197e6032c0bf9b33e3.svg",
     "static/media/feedjobs-bg.svg": "/vagas-webapp/static/media/feedjobs-bg.73035fd14a6aafae7e806ec620b0c2b0.svg",
@@ -49,10 +49,10 @@
     "static/media/circle-application-red.svg": "/vagas-webapp/static/media/circle-application-red.7458f4d1cbacd1eea96d52eb3ae15bf3.svg",
     "static/media/circle-application-green.svg": "/vagas-webapp/static/media/circle-application-green.cb6280135fbec311d575ddb5bd609d81.svg",
     "main.a7f1c16a.css.map": "/vagas-webapp/static/css/main.a7f1c16a.css.map",
-    "main.bdd0c5ca.js.map": "/vagas-webapp/static/js/main.bdd0c5ca.js.map"
+    "main.91383d24.js.map": "/vagas-webapp/static/js/main.91383d24.js.map"
   },
   "entrypoints": [
     "static/css/main.a7f1c16a.css",
-    "static/js/main.bdd0c5ca.js"
+    "static/js/main.91383d24.js"
   ]
 }
